@@ -24,12 +24,12 @@ HostApplication=
 UseCustomMakefile=0
 CustomMakefile=
 CommandLine=
-Folders=StackUsingArray
+Folders=StackUsingArray,StackUsingLL
 IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=0
 CompilerSettings=0000000000000000000000000
-UnitCount=1
+UnitCount=2
 
 [VersionInfo]
 Major=1
@@ -54,6 +54,16 @@ SyncProduct=1
 FileName=StackUsingArray\stack_using_array.cpp
 CompileCpp=1
 Folder=StackUsingArray
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit2]
+FileName=StackUsingLL\stack_using_linked_list.cpp
+CompileCpp=1
+Folder=StackUsingLL
 Compile=1
 Link=1
 Priority=1000

@@ -6,7 +6,7 @@ struct Stack
 {
 	int size ;
 	int top ;
-	int *S ;
+	int *S ; 
 };
 
 void create(struct Stack *st) 

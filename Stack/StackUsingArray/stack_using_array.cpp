@@ -1,12 +1,12 @@
 #include <iostream>
 
-using namespace std;
+using namespace std ;
 
 struct Stack
 {
-	int size;
-	int top;
-	int *S;
+	int size ;
+	int top ;
+	int *S ;
 };
 
 void create(struct Stack *st) 
